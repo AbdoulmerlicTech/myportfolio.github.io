@@ -1,3 +1,7 @@
+/*
+		
+*/
+
 body
 {
 	background: #000000;
@@ -357,6 +361,27 @@ h1,h2,h3,h4,h5
 #portfolio h5{
     margin: auto;
 
+}
+/* Add this CSS after your existing rules */
+.profile-container {
+    position: absolute;
+    top: 0.1px;
+    right: 800px;
+    border: 5px solid #D43F52;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Additional style to align the header to the left */
+#portfolio .container {
+    text-align: left;
 }
 /* end portfolio */
 
